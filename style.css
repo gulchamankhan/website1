@@ -1,0 +1,747 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text_333 h5 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #263238;
+    font-size: 26px;
+    line-height: 1.9;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .text_333 h5 {
+        text-align: center;
+        max-block-size: 10px !important;
+        font-size: 10px !important;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+.text_333 h {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #263238;
+    font-size: 26px;
+    line-height: 1.9;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width: 1150px) {
+    .text_333 h {
+        text-align: center;
+        max-block-size: 10px !important;
+        font-size: 8px !important;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+.text_333 {
+    margin-bottom: 5%;
+}
+
+
+
+.text_333 h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 73px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .text_333 h2 {
+        font-size: 12px !important;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+.text_333 h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 73px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .text_333 h3 {
+        font-size: 12px !important;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+.icon-link li {
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.icon-link i {
+    font-size: 20px;
+    color: #474645;
+}
+
+.icon-link i:hover {
+    color: #bfa588;
+}
+
+.carousel .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 8px;
+
+}
+
+.carousel .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 8px;
+
+}
+
+.carousel .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 8px;
+
+}
+
+.profile {
+    padding-left: 3%;
+}
+
+.profile a {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #393737;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    margin-right: 15px;
+    padding-left: 1%;
+}
+
+.box {
+    background-color: #f8f6f7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-right: 7%;
+    border: 1px solid #565353;
+}
+
+.box>i {
+    font-size: 10px;
+    color: #fffafa;
+}
+
+.box>input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    width: 100%;
+}
+
+.btn-light {
+    color: #bfa588;
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #171712 !important;
+    text-align: center;
+
+}
+
+.nav-link:hover,
+a.active {
+    color: #bfa588 !important;
+}
+
+input,
+button {
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.border-right {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    transition-duration: 0.4s;
+    transition-property: background-color, border-color;
+    margin-bottom: 30px
+}
+
+:root {
+    --bg-brown: #bfa588;
+    --text-white: #ffff;
+    --bg-lightest: #bfa588;
+    --text-dark: #bfa588;
+    --bg-lighter: #f2e5df;
+    --text-darkest: #131212;
+    --bg-light: #bb989e;
+    --text-light: #bb989e;
+
+}
+
+.bg-brown {
+    background: var(--bg-brown);
+}
+
+.text-white {
+    color: var(--text-brown);
+}
+
+.bg-lightest {
+    background: var(--bg-lightest) !important;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: var(--text-brown) !important;
+    background: var(--text-dark) !important;
+    border: 1px solid var(--bg-lightest) !important;
+}
+
+.page-link {
+    color: var(--text-) !important;
+    background: var(--text-lightest) !important;
+    border: 1px solid var(--text-darkest) !important;
+}
+
+.bg-lighter {
+    background: var(--bg-lighter) !important;
+}
+
+.bg-light {
+    background: var(--bg-light) !important;
+}
+
+.text-light {
+    color: var(--bg-light) !important;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: #858586;
+}
+
+.text h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 30px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+}
+
+.text a {
+    color: #bfa588;
+
+}
+
+.text:hover,
+a.active {
+    color: #4f4b47;
+
+
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+.background-image {
+    background-image: url(https://template74816.motopreview.com/mt-demo/74800/74816/mt-content/uploads/2018/11/mt-1675_home_bg-1.jpg);
+    position: center;
+    background-size: cover;
+    background-repeat: no-peat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text_231 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: initial;
+    padding-left: initial;
+}
+
+.text_231 h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.text_231 h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #ffffff;
+    font-size: 76px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.text_231,
+.span {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.header {
+    background-image: url(https://template74816.motopreview.com/mt-demo/74800/74816/mt-content/uploads/2018/11/mt-1675_home_bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.text_233 h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+
+}
+
+.text_233 h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0px
+}
+
+.text_233 h5 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: end;
+    vertical-align: top;
+}
+
+.text_233 h6 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 58px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    text-align: end;
+    vertical-align: top;
+}
+
+.btn-light {
+    color: #bfa588;
+}
+
+.text-231 a {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo',
+        sans-serif;
+    color: #bfa588;
+    font-size: 14px;
+    line-height: 2.2;
+    letter-spacing: 0px;
+
+}
+
+.text_232 p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.text_232 li {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    width: 33.3;
+}
+
+.text_233 p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.text_233 p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.social-link li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-link i {
+    font-size: 14px;
+    color: #bfa588;
+}
+
+.social-link i:hover {
+    color: #171712;
+}
+
+.text_234 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+}
+
+.social-links a {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.social-links {
+    text-align: end;
+}
+
+@media only screen and (max-width: 767px) {
+    .social-links {
+        text-align: center;
+    }
+}
+
+.footer2 {
+    text-align: start;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer2 {
+        text-align: center;
+    }
+}
+
+/*About-us*/
+.main-heading p {
+
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.main-heading h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.main-heading h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.text_system h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 23px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.text_system p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo',
+        sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.search {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #000000;
+    font-size: 54px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.text_system_1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 23px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.text_system_2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.Testimonials {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.border {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-block-start-width: 10px;
+    border-color: #000000;
+    border-left-width: 10px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    transition-duration: 0.4s;
+    margin-bottom: 30px
+}
+
+.Testimonials_1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo',
+        sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px
+}
+
+.Testimonials_3 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+/*Blog...... */
+.blog_text {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #858586;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.blog {
+    color: #263238;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blog_1 a {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.Main_heading {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+/* Bed_line.....*/
+
+.Bed-linen-main {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #434f53;
+}
+
+.Bed-line-img {
+    background-image: url(https://template74816.motopreview.com/mt-demo/74800/74816/mt-content/uploads/2018/11/mt-1675_categories_bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-position: 0 0;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 0 transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.4s;
+    transition-property: background-color, border-color;
+}
+
+.content h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    color: #263238;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.input_field .select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #504b4b;
+    width: 100px;
+    height: 100px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.row_Bed-linen {
+    justify-content: space-between;
+}
